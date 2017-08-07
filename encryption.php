@@ -38,7 +38,7 @@ function openssl_rijndael128_ecb_decrypt($str=null, $plain_key=null)
  * Example Test compatibility
  */
 
-$enc_key='ZAqyuuB77cTBY/Z5p0b3qw==';
+$enc_key='MDEyMzQ1Njc4OWFiY2RlZg==';
 $key=base64_decode($enc_key);
 $json_data='{"session":"test1","offerID":"test","voucherCode":"YuEAsw","phoneNo":"081234000001","timestamp":"1495538522"}';
 $openssl_encrypt=openssl_rijndael128_ecb_encrypt($json_data, $key);

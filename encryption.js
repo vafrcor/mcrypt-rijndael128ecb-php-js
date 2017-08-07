@@ -4,8 +4,8 @@
 
 var mcrypt = require('js-rijndael'); // npm install js-rijndael --save
 var base64Js = require('base64-js'); // npm install base64-js --save
-var data='NQOxxkqRe7r336rabsltFaIC06ziEtNMzxfJM3X/wMa6FnwGwZ7MFloYtAvwZ521OdndKIYtEbO/iFRHo/igGfNMJ+x0JmCWuXt9YvMOs28b61unMicVmqp3DWq0jXdn3nlCuA47WwbTf760w1ipbA==';
-var encrypted_key="ZAqyuuB77cTBY/Z5p0b3qw==";
+var data='gVd37sq7h/d4l2Q1njoQ2ry/V9sO43P17H/1P+/2BT68qXk3nz8E3ckMdDCJ/3jVMCAqFx3jbzOIluJdXmHHZQzInWXHfYepKoQyKTQ9eWCCgAsdqZuud78kHXrt0jdPT18Q54ffVvH/OYZ+nRkBNA==';
+var encrypted_key="MDEyMzQ1Njc4OWFiY2RlZg==";
 
 try{
  	var key = [].slice.call(base64Js.toByteArray(encrypted_key));
