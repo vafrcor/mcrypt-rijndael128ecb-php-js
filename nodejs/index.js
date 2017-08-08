@@ -4,7 +4,6 @@ const app = express();
 app.get('/', function (req, res) {
   var fs=require('fs');
 	var _=require('lodash');
-	var php=require('locutus/php');
 	var mcrypt = require('js-rijndael');
 	var base64 = require('base64-js'); // base64 with byte-array support
 	let base64Encryption=require('./libs/base64.js'); // base64 encoding/decoding

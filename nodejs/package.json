@@ -12,7 +12,6 @@
     "base64-js": "^1.2.1",
     "express": "~4.15.2",
     "js-rijndael": "^1.0.0",
-    "locutus": "^2.0.9",
     "lodash": "^4.17.4"
   }
 }
